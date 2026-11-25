@@ -1,0 +1,34 @@
+{
+  "name": "Island Horror Survival game",
+  "tree": {
+    "$className": "DataModel",
+    "$ignoreUnknownInstances": true,
+
+    "ReplicatedStorage": {
+      "$ignoreUnknownInstances": true,
+      "Shared": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "$ignoreUnknownInstances": true,
+      "Server": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$ignoreUnknownInstances": true,
+        "Client": {
+          "$ignoreUnknownInstances": true,
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}
